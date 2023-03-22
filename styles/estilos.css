@@ -1,0 +1,9 @@
+/* Estilos generales*/
+:root{
+    --fuente-texto-principal:Roboto,sans-serif;
+}
+
+body{
+    margin: 0;
+    font-family: var(--fuente-texto-principal);
+}

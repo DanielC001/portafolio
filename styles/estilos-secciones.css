@@ -39,3 +39,24 @@
     background-size: cover;
     border-radius: 130px;
 }
+
+/*Seccion sobre mi */
+#sobre-mi{
+    background-color: rgb(217, 238, 255);
+    height: auto;
+    width: 100vw;
+}
+
+.sobre-mi__container{
+    width: 55%;
+    padding: 2rem 10%;
+    text-align: justify;
+}
+
+.sobre-mi__container__titulo{
+    font-size: 1.8rem;
+}
+
+.sobre-mi__container__parrafo{
+    font-size: 1.1rem;
+}

@@ -7,3 +7,7 @@ body{
     margin: 0;
     font-family: var(--fuente-texto-principal);
 }
+
+a{
+    text-decoration: none;
+}

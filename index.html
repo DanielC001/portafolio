@@ -11,8 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <!-- importando estilos-->
     <link rel="stylesheet" href="./styles/estilos.css">
-    <link rel="stylesheet" href="./styles/estilos-secciones.css">
     <link rel="stylesheet" href="./styles/estilos-navbar.css">
+    <link rel="stylesheet" href="./styles/estilos-secciones.css">
 </head>
 <body>
     <header class="encabezado">
@@ -22,11 +22,10 @@
         </div>
         <nav class="encabezado__nav">
             <ul class="encabezado__nav-lista">
-                <li class="encabezado__nav-lista-item"><a href="#">Sobre mi</a></li>
-                <li class="encabezado__nav-lista-item"><a href="#">Habilidades</a></li>
-                <li class="encabezado__nav-lista-item"><a href="#">Formación</a></li>
-                <li class="encabezado__nav-lista-item"><a href="#">Proyectos</a></li>
-                <li class="encabezado__nav-lista-item"><a href="#">Hobbies</a></li>
+                <li class="encabezado__nav-lista-item"><a href="#sobre-mi">Sobre mi</a></li>
+                <li class="encabezado__nav-lista-item"><a href="#habilidades">Habilidades</a></li>
+                <li class="encabezado__nav-lista-item"><a href="#formacion">Formación</a></li>
+                <li class="encabezado__nav-lista-item"><a href="#proyectos">Proyectos</a></li>
             </ul>
         </nav>
     </header>
@@ -64,7 +63,7 @@
                 <p class="sobre-mi__container__parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae odit officiis qui, eligendi rem delectus quas nesciunt suscipit nam tempore deserunt dolorem iure quibusdam, asperiores id ducimus eius tenetur quos atque dolores inventore. Velit sint cumque mollitia eius in, fugiat corrupti amet quod quidem a blanditiis. Temporibus vero vel, dignissimos earum a doloremque, recusandae neque sunt laborum dicta laboriosam id!</p>
             </div>
         </section>
-        <section id="habilidades">
+        <section class="habilidades" id="habilidades">
             <h2 class="habilidades__titulo">Habilidades</h2>
             <div class="habilidades__container">
                 <ul class="habilidades__container-lista">
@@ -109,7 +108,7 @@
                 </ul>
             </div>
         </section>
-        <section class="formacion">
+        <section class="formacion" id="formacion">
             <div class="formacion__container">
                 <h2 class="formacion__container__titulo">Formación académica</h2>
                 <ul class="formacion__container__lista">
@@ -136,6 +135,97 @@
                             <h4 class="tarjeta-formacion__contenido__titulo2">ALURA y ORACLE</h4>
                             <p class="tarjeta-formacion__contenido__fecha">2022</p>
                         </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="proyectos" id="proyectos">
+            <div class="proyectos__container">
+                <h2 class="proyectos__container-titulo">Proyectos Realizados</h2>
+                <ul class="proyectos__container-lista">
+                    <li class="proyectos__container-lista-item">
+                        <div class="cont">
+                            <h3 class="cont__titulo">ecommerce</h3>
+                            <p class="cont__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic facilis laboriosam quidem sed suscipit debitis mollitia, assumenda non laborum odio saepe maxime eum. Cumque atque tenetur laborum fuga qui!</p>
+                            <div>
+                                <p>tecnologias utilizadas</p>
+                                <ul>
+                                    <li>HTML 5</li>
+                                    <li>CSS 3</li>
+                                    <li>JavaScript</li>
+                                    <li>Json server</li>
+                                </ul>
+                            </div>
+                            <a class="cont__enlace" href="#">ver repositorio</a>
+                        </div>
+                        <img class="proyectos__container-lista-item__imagen" src="./imgs/imagen-ecommerce.png" alt="imagen_ecommerce">
+                    </li>
+                    <li class="proyectos__container-lista-item">
+                        <div class="cont">
+                            <h3 class="cont__titulo">Aplicación de gestión de reservas</h3>
+                            <p class="cont__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic facilis laboriosam quidem sed suscipit debitis mollitia, assumenda non laborum odio saepe maxime eum. Cumque atque tenetur laborum fuga qui!</p>
+                            <div>
+                                <p>tecnologias utilizadas</p>
+                                <ul>
+                                    <li>Java</li>
+                                    <li>MYSQL</li>
+                                </ul>
+                            </div>
+                            <a class="cont__enlace" href="#">ver repositorio</a>
+                        </div>
+                        <img class="proyectos__container-lista-item__imagen" src="./imgs/imagen-hotel.png" alt="imagen_ecommerce">
+                    </li>
+                    <li class="proyectos__container-lista-item">
+                        <div class="cont">
+                            <h3 class="cont__titulo">Conversor</h3>
+                            <p class="cont__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic facilis laboriosam quidem sed suscipit debitis mollitia, assumenda non laborum odio saepe maxime eum. Cumque atque tenetur laborum fuga qui!</p>
+                            <div>
+                                <p>tecnologias utilizadas</p>
+                                <ul>
+                                    <li>Java</li>
+                                </ul>
+                            </div>
+                            <a class="cont__enlace" href="#">ver repositorio</a>
+                        </div>
+                        <img class="proyectos__container-lista-item__imagen--mediano" src="./imgs/imagen_conversor.png" alt="imagen_ecommerce">
+                    </li>
+                    <li class="proyectos__container-lista-item">
+                        <div class="cont">
+                            <h3 class="cont__titulo">Juego de ahorcado</h3>
+                            <p class="cont__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic facilis laboriosam quidem sed suscipit debitis mollitia, assumenda non laborum odio saepe maxime eum. Cumque atque tenetur laborum fuga qui!</p>
+                            <div>
+                                <p>tecnologias utilizadas</p>
+                                <ul>
+                                    <li>HTML 5</li>
+                                    <li>CSS 3</li>
+                                    <li>JavaScript</li>
+                                </ul>
+                            </div>
+                            <div class="cont_botones">
+                                <a class="cont__enlace" href="#">ver aplicación</a>
+                                <a class="cont__enlace" href="#">ver repositorio</a>
+                            </div>
+                        </div>
+                        <img class="proyectos__container-lista-item__imagen" src="./imgs/imagen-juego-ahorcado.PNG" alt="imagen_ecommerce">
+                    </li>
+                    <li class="proyectos__container-lista-item">
+                        <div class="cont">
+                            <h3 class="cont__titulo">Encriptador de texto</h3>
+                            <p class="cont__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic facilis laboriosam quidem sed suscipit debitis mollitia, assumenda non laborum odio saepe maxime eum. Cumque atque tenetur laborum fuga qui!</p>
+                            <div>
+                                <p>tecnologias utilizadas</p>
+                                <ul>
+                                    <li>HTML 5</li>
+                                    <li>CSS 3</li>
+                                    <li>JavaScript</li>
+                                </ul>
+                            </div>
+                            <div class="cont_botones">
+                                <a class="cont__enlace" href="#">ver aplicación</a>
+                                <a class="cont__enlace" href="#">ver repositorio</a>
+                            </div>
+                        </div>
+                        <img class="proyectos__container-lista-item__imagen" src="./imgs/imagen_encriptador.PNG" alt="imagen_ecommerce">
                     </li>
                 </ul>
             </div>

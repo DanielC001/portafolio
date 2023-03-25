@@ -235,3 +235,17 @@
     display: flex;
 }
 
+/* footer */
+
+.pie-pagina{
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pie-pagina__titulo{
+    color: white;
+    margin: 0;
+}

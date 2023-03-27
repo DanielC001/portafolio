@@ -1,0 +1,36 @@
+.sobre-mi{
+    width: 100%;
+    height: auto;
+    background-color: var(--color-azul);
+}
+
+.sobre-mi__container{
+    width: 50%;
+    padding: 2rem 10%;
+    text-align: justify;
+}
+
+.sobre-mi__container-parrafo{
+    font-size: 1.1rem;
+}
+
+/* responsive */
+
+@media screen and (min-width:360px) and (max-width:767px) {
+
+    .sobre-mi__container{
+        width: 90%;
+        padding: 1rem 5%;
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+    .sobre-mi__container{
+        width: 90%;
+        padding: 1rem 5%;
+        text-align: justify;
+    }
+
+}

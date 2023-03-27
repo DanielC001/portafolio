@@ -1,0 +1,21 @@
+/* footer */
+
+.pie-pagina{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 10vh;
+    background-color: var(--color-gris-oscuro);
+    border-top: 2px solid black;
+}
+
+.pie-pagina__titulo{
+    color: black;
+    margin: 0;
+}
+
+.pie-pagina__subtitulo{
+    color: black;
+    margin: 0;
+}

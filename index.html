@@ -5,47 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio | Daniel Caro</title>
-    <!-- importando fuentes -->
+    <link rel="shortcut icon" href="./imgs/icono_portafolio.svg" type="image/x-icon">
+    <!-- importando fuente -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <!-- importando estilos-->
     <link rel="stylesheet" href="./styles/estilos.css">
     <link rel="stylesheet" href="./styles/estilos-navbar.css">
-    <link rel="stylesheet" href="./styles/estilos-secciones.css">
+    <link rel="stylesheet" href="./styles/styles__secciones/estilos-descripcion.css">
+    <link rel="stylesheet" href="./styles/styles__secciones/estilos-sobreMi.css">
+    <link rel="stylesheet" href="./styles/styles__secciones/estilos-habilidades.css">
+    <link rel="stylesheet" href="./styles/styles__secciones/estilos-formacion.css">
+    <link rel="stylesheet" href="./styles/styles__secciones/estilos-proyectos.css">
+    <link rel="stylesheet" href="./styles/estilos-footer.css">
 </head>
 <body>
-    <header class="encabezado">
-        <div class="encabezado__logo">
-            <img src="" alt="logo" class="encabezado__logo-imagen">
-            <span class="encabezado__logo-texto">Daniel Caro</span>
+    <header class="encabezado"> 
+        <div class="encabezado__logo"> 
+            <img src="./imgs/icono_portafolio.svg" alt="logo" class="encabezado__logo-imagen"> 
+            <span class="encabezado__logo-texto">Daniel Caro</span> 
         </div>
-        <nav class="encabezado__nav">
-            <ul class="encabezado__nav-lista">
-                <li class="encabezado__nav-lista-item"><a href="#sobre-mi">Sobre mi</a></li>
-                <li class="encabezado__nav-lista-item"><a href="#habilidades">Habilidades</a></li>
-                <li class="encabezado__nav-lista-item"><a href="#formacion">Formación</a></li>
-                <li class="encabezado__nav-lista-item"><a href="#proyectos">Proyectos</a></li>
+        <nav class="encabezado__nav"> 
+            <ul class="encabezado__lista"> 
+                <li class="encabezado__lista-item"><a href="#sobre-mi" class="encabezado__lista-item-enlace">Sobre mi</a></li> 
+                <li class="encabezado__lista-item"><a href="#habilidades" class="encabezado__lista-item-enlace">Habilidades</a></li>
+                <li class="encabezado__lista-item"><a href="#formacion" class="encabezado__lista-item-enlace">Formación</a></li>
+                <li class="encabezado__lista-item"><a href="#proyectos" class="encabezado__lista-item-enlace">Proyectos</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="descripcion">
-            <div class="descripcion__container">
-                <div class="descripcion__container__contenido">
-                    <h1 class="contenido__titulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolor?</h1>
-                    <p class="contenido__parrafo">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quam magni, necessitatibus quae excepturi officia modi voluptatibus soluta aut iusto? Vitae, consequuntur? Culpa rerum odit atque ipsam, velit dolorem perferendis.
-                    </p>
-                    <div class="contenido__contacto">
-                        <a href="#">Github
+        <section class="descripcion"> 
+            <div class="container-seccion  descripcion__container"> 
+                <div class="descripcion__contenido">
+                    <div class="descripcion__info">
+                        <h1 class="descripcion__titulo">Hola, mi nombre es Daniel Caro, soy tecnólogo en mecánica industrial y desarrollador web</h1>
+                        <p class="descripcion__parrafo">
+                            Soy egresado de la Universidad Distrital Francisco José de Caldas como tecnólogo en mecánica industrial
+                            y desarrollador web de la Universidad de Antioquia.
+                        </p>
+                    </div>
+                    <div class="descripcion__contacto">
+                        <a href="https://github.com/DanielC001" class="descripcion__contacto-enlace">Github
                             <span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-square-fill" viewBox="0 0 16 16">
                                     <path d="M14 0a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12zM5.904 10.803 10 6.707v2.768a.5.5 0 0 0 1 0V5.5a.5.5 0 0 0-.5-.5H6.525a.5.5 0 1 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 .707.707z"/>
                                 </svg>
                             </span>
                         </a>
-                        <a href="#">Linkedin
+                        <a href="https://www.linkedin.com/in/daniel-caro-695b0b264/" class="descripcion__contacto-enlace">Linkedin
                             <span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-square-fill" viewBox="0 0 16 16">
                                     <path d="M14 0a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12zM5.904 10.803 10 6.707v2.768a.5.5 0 0 0 1 0V5.5a.5.5 0 0 0-.5-.5H6.525a.5.5 0 1 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 .707.707z"/>
@@ -54,19 +63,24 @@
                         </a>
                     </div>
                 </div>
-                <div class="foto"></div>
+                <div class="descripcion__foto"></div>
             </div>
         </section>
-        <section id="sobre-mi">
-            <div class="sobre-mi__container">
-                <h2 class="sobre-mi__container__titulo">Sobre mi</h2>
-                <p class="sobre-mi__container__parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae odit officiis qui, eligendi rem delectus quas nesciunt suscipit nam tempore deserunt dolorem iure quibusdam, asperiores id ducimus eius tenetur quos atque dolores inventore. Velit sint cumque mollitia eius in, fugiat corrupti amet quod quidem a blanditiis. Temporibus vero vel, dignissimos earum a doloremque, recusandae neque sunt laborum dicta laboriosam id!</p>
+        <section class="sobre-mi" id="sobre-mi">
+            <div class="container-seccion sobre-mi__container">
+                <h2 class="container-seccion__titulo">Sobre mi</h2>
+                <p class="sobre-mi__container-parrafo">
+                    Mi nombre es Daniel Caro, tengo 22 años, soy de colombia y actualmente estoy en la búsqueda de una oportunidad 
+                    como programador.
+                    <br>
+                    Poseo conocimientos tanto en el area del frontend como del backend.
+                </p>
             </div>
         </section>
         <section class="habilidades" id="habilidades">
-            <h2 class="habilidades__titulo">Habilidades</h2>
-            <div class="habilidades__container">
-                <ul class="habilidades__container-lista">
+            <div class="container-seccion habilidades__container">
+                <h2 class="container-seccion__titulo--centrado">Habilidades</h2>
+                <ul class="lista habilidades__container-lista">
                     <li class="tarjeta">
                             <h4 class="tarjeta__titulo">HTML 5</h4>
                             <svg class="tarjeta__logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"/></svg>  
@@ -109,130 +123,146 @@
             </div>
         </section>
         <section class="formacion" id="formacion">
-            <div class="formacion__container">
-                <h2 class="formacion__container__titulo">Formación académica</h2>
-                <ul class="formacion__container__lista">
+            <div class=" container-seccion formacion__container">
+                <h2 class="container-seccion__titulo--centrado ">Formación académica</h2>
+                <ul class="formacion__container-lista">
                     <li class="tarjeta-formacion">
-                        <img class="tarjeta-formacion__imagen" src="./imgs/logo_ud.png" alt="logo_ud">
+                        <img class="tarjeta-formacion__imagen" src="./imgs/logos_instituciones/logo_ud.png" alt="logo_ud">
                         <div class="tarjeta-formacion__contenido">
-                            <h3 class="tarjeta-formacion__contenido__titulo">Tecnología en Mecánica Industrial</h3>
-                            <h4 class="tarjeta-formacion__contenido__titulo2">Universidad Distrital Francisco Jose de Caldas</h4>
-                            <p class="tarjeta-formacion__contenido__fecha">2018 - 2022</p>
+                            <h3 class="tarjeta-formacion__contenido-titulo">Tecnología en Mecánica Industrial</h3>
+                            <h4 class="tarjeta-formacion__contenido-subtitulo">Universidad Distrital Francisco Jose de Caldas</h4>
+                            <p class="tarjeta-formacion__contenido-fecha">2018 - 2022</p>
                         </div>
                     </li>
                     <li class="tarjeta-formacion">
-                        <img  class="tarjeta-formacion__imagen" src="./imgs/logo_udea2.jpg" alt="logo_udea">
+                        <img  class="tarjeta-formacion__imagen" src="./imgs/logos_instituciones/logo_udea2.jpg" alt="logo_udea">
                         <div class="tarjeta-formacion__contenido">
-                            <h3 class="tarjeta-formacion__contenido__titulo">Programación Web</h3>
-                            <h4 class="tarjeta-formacion__contenido__titulo2">Universidad de Antioquia</h4>
-                            <p class="tarjeta-formacion__contenido__fecha">2021</p>
+                            <h3 class="tarjeta-formacion__contenido-titulo">Programación Web</h3>
+                            <h4 class="tarjeta-formacion__contenido-subtitulo">Universidad de Antioquia</h4>
+                            <p class="tarjeta-formacion__contenido-fecha">2021</p>
                         </div>
                     </li>
                     <li class="tarjeta-formacion">
-                        <img class="tarjeta-formacion__imagen" src="./imgs/descarga.png" alt="logo_alura">
+                        <img class="tarjeta-formacion__imagen" src="./imgs/logos_instituciones/logo_alura.png" alt="logo_alura">
                         <div class="tarjeta-formacion__contenido">
-                            <h3 class="tarjeta-formacion__contenido__titulo">Programación Frontend y Backend</h3>
-                            <h4 class="tarjeta-formacion__contenido__titulo2">ALURA y ORACLE</h4>
-                            <p class="tarjeta-formacion__contenido__fecha">2022</p>
+                            <h3 class="tarjeta-formacion__contenido-titulo">Programación Frontend y Backend</h3>
+                            <h4 class="tarjeta-formacion__contenido-subtitulo">ALURA y ORACLE</h4>
+                            <p class="tarjeta-formacion__contenido-fecha">2022</p>
                         </div>
                     </li>
                 </ul>
             </div>
         </section>
         <section class="proyectos" id="proyectos">
-            <div class="proyectos__container">
-                <h2 class="proyectos__container-titulo">Proyectos Realizados</h2>
-                <ul class="proyectos__container-lista">
-                    <li class="proyectos__container-lista-item">
-                        <div class="cont">
-                            <h3 class="cont__titulo">ecommerce</h3>
-                            <p class="cont__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic facilis laboriosam quidem sed suscipit debitis mollitia, assumenda non laborum odio saepe maxime eum. Cumque atque tenetur laborum fuga qui!</p>
-                            <div>
-                                <p>tecnologias utilizadas</p>
-                                <ul>
+            <div class="container-seccion">
+                <h2 class="container-seccion__titulo--centrado">Proyectos Realizados</h2>
+                <ul class="lista">
+                    <li class="proyectos__lista-item">
+                        <div class="proyectos__lista-contenido">
+                            <h3 class="proyectos__lista-contenido-titulo">Ecommerce</h3>
+                            <p class="proyectos__lista-contenido-des">
+                                Tienda de comercio electrónico, la cual posee diferentes interfaces graficas
+                                (login, panel de administración, etc) además de la posibilidad de crear, editar 
+                                y eliminar los artículos de la tienda.
+                            </p>
+                            <div class="proyectos__lista-tecnologias">
+                                <p class="proyectos__lista-tecnologias-titulo">tecnologías utilizadas:</p>
+                                <ul class="listado-iconos">
                                     <li>HTML 5</li>
                                     <li>CSS 3</li>
                                     <li>JavaScript</li>
-                                    <li>Json server</li>
+                                    <li>JSON server</li>
                                 </ul>
                             </div>
-                            <a class="cont__enlace" href="#">ver repositorio</a>
+                            <a class="boton boton--primario" href="https://github.com/ProyectosAlura/ecommerce">ver repositorio</a>
                         </div>
-                        <img class="proyectos__container-lista-item__imagen" src="./imgs/imagen-ecommerce.png" alt="imagen_ecommerce">
+                        <img class="proyectos__lista-item-imagen" src="./imgs/imgs_proyectos/imagen-ecommerce.png" alt="imagen_ecommerce">
                     </li>
-                    <li class="proyectos__container-lista-item">
-                        <div class="cont">
-                            <h3 class="cont__titulo">Aplicación de gestión de reservas</h3>
-                            <p class="cont__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic facilis laboriosam quidem sed suscipit debitis mollitia, assumenda non laborum odio saepe maxime eum. Cumque atque tenetur laborum fuga qui!</p>
-                            <div>
-                                <p>tecnologias utilizadas</p>
-                                <ul>
-                                    <li>Java</li>
+                    <li class="proyectos__lista-item">
+                        <div class="proyectos__lista-contenido">
+                            <h3 class="proyectos__lista-contenido-titulo">Aplicación de gestión de reservas</h3>
+                            <p class="proyectos__lista-contenido-des">
+                                Aplicación de gestión de reservas de un hotel, en la cual se puede crear, editar
+                                 y eliminar las reservas, también es posible registrar, editar y eliminar huéspedes, 
+                                 además de contar con un sistema de búsqueda tanto de reservas como huéspedes.
+                            </p>
+                            <div class="proyectos__lista-tecnologias">
+                                <p class="proyectos__lista-tecnologias-titulo">tecnologías utilizadas:</p>
+                                <ul class="listado-iconos">
+                                    <li>Java 8</li>
                                     <li>MYSQL</li>
                                 </ul>
                             </div>
-                            <a class="cont__enlace" href="#">ver repositorio</a>
+                            <a class="boton boton--primario" href="https://github.com/ProyectosAlura/hotel">ver repositorio</a>
                         </div>
-                        <img class="proyectos__container-lista-item__imagen" src="./imgs/imagen-hotel.png" alt="imagen_ecommerce">
+                        <img class="proyectos__lista-item-imagen" src="./imgs/imgs_proyectos/imagen-hotel.png" alt="imagen_hotel">
                     </li>
-                    <li class="proyectos__container-lista-item">
-                        <div class="cont">
-                            <h3 class="cont__titulo">Conversor</h3>
-                            <p class="cont__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic facilis laboriosam quidem sed suscipit debitis mollitia, assumenda non laborum odio saepe maxime eum. Cumque atque tenetur laborum fuga qui!</p>
-                            <div>
-                                <p>tecnologias utilizadas</p>
-                                <ul>
-                                    <li>Java</li>
+                    <li class="proyectos__lista-item">
+                        <div class="proyectos__lista-contenido">
+                            <h3 class="proyectos__lista-contenido-titulo">Conversor</h3>
+                            <p class="proyectos__lista-contenido-des">Aplicación de conversión, la cual contiene diferentes tipos de
+                                conversores, como: conversor de moneda, conversor de longitud, conversor de volumen y conversor de presión.
+                            </p>
+                            <div class="proyectos__lista-tecnologias">
+                                <p class="proyectos__lista-tecnologias-titulo">tecnologías utilizadas:</p>
+                                <ul class="listado-iconos">
+                                    <li>Java 8</li>
                                 </ul>
                             </div>
-                            <a class="cont__enlace" href="#">ver repositorio</a>
+                            <a class="boton boton--primario" href="https://github.com/ProyectosAlura/conversor">ver repositorio</a>
                         </div>
-                        <img class="proyectos__container-lista-item__imagen--mediano" src="./imgs/imagen_conversor.png" alt="imagen_ecommerce">
+                        <img class="proyectos__lista-item-imagen--mediano" src="./imgs/imgs_proyectos/imagen_conversor.png" alt="imagen_conversor">
                     </li>
-                    <li class="proyectos__container-lista-item">
-                        <div class="cont">
-                            <h3 class="cont__titulo">Juego de ahorcado</h3>
-                            <p class="cont__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic facilis laboriosam quidem sed suscipit debitis mollitia, assumenda non laborum odio saepe maxime eum. Cumque atque tenetur laborum fuga qui!</p>
-                            <div>
-                                <p>tecnologias utilizadas</p>
-                                <ul>
+                    <li class="proyectos__lista-item">
+                        <div class="proyectos__lista-contenido">
+                            <h3 class="proyectos__lista-contenido-titulo">Juego de ahorcado</h3>
+                            <p class="proyectos__lista-contenido-des">
+                                Aplicación del juego de ahorcado, la cual tiene diseño responsivo (Desktop,Tablet y Mobile), 
+                                dentro de sus funcionalidades, está la de guardar palabras nuevas para adivinar.</p>
+                            <div class="proyectos__lista-tecnologias">
+                                <p class="proyectos__lista-tecnologias-titulo">tecnologías utilizadas:</p>
+                                <ul class="listado-iconos">
                                     <li>HTML 5</li>
                                     <li>CSS 3</li>
                                     <li>JavaScript</li>
                                 </ul>
                             </div>
-                            <div class="cont_botones">
-                                <a class="cont__enlace" href="#">ver aplicación</a>
-                                <a class="cont__enlace" href="#">ver repositorio</a>
+                            <div class="proyectos__contenedor-botones">
+                                <a class="boton boton--primario" href="https://proyectosalura.github.io/juego-ahorcado/">ver aplicación</a>
+                                <a class="boton boton--secundario" href="https://github.com/ProyectosAlura/juego-ahorcado">ver repositorio</a>
                             </div>
                         </div>
-                        <img class="proyectos__container-lista-item__imagen" src="./imgs/imagen-juego-ahorcado.PNG" alt="imagen_ecommerce">
+                        <img class="proyectos__lista-item-imagen" src="./imgs/imgs_proyectos/imagen-juego-ahorcado.png" alt="imagen_juego_ahorcado">
                     </li>
-                    <li class="proyectos__container-lista-item">
-                        <div class="cont">
-                            <h3 class="cont__titulo">Encriptador de texto</h3>
-                            <p class="cont__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic facilis laboriosam quidem sed suscipit debitis mollitia, assumenda non laborum odio saepe maxime eum. Cumque atque tenetur laborum fuga qui!</p>
-                            <div>
-                                <p>tecnologias utilizadas</p>
-                                <ul>
+                    <li class="proyectos__lista-item">
+                        <div class="proyectos__lista-contenido">
+                            <h3 class="proyectos__lista-contenido-titulo">Encriptador de texto</h3>
+                            <p class="proyectos__lista-contenido-des">
+                                Aplicación que permite tanto la encriptación como la desencriptación del texto que el usuario digite, 
+                                y cuenta con diseño responsivo (Desktop,Tablet y Mobile).
+                            </p>
+                            <div class="proyectos__lista-tecnologias">
+                                <p class="proyectos__lista-tecnologias-titulo">tecnologías utilizadas:</p>
+                                <ul class="listado-iconos">
                                     <li>HTML 5</li>
                                     <li>CSS 3</li>
                                     <li>JavaScript</li>
                                 </ul>
                             </div>
-                            <div class="cont_botones">
-                                <a class="cont__enlace" href="#">ver aplicación</a>
-                                <a class="cont__enlace" href="#">ver repositorio</a>
+                            <div class="proyectos__contenedor-botones">
+                                <a class="boton boton--primario" href="https://proyectosalura.github.io/challenge-encriptador-texto/">ver aplicación</a>
+                                <a class="boton boton--secundario" href="https://github.com/ProyectosAlura/challenge-encriptador-texto">ver repositorio</a>
                             </div>
                         </div>
-                        <img class="proyectos__container-lista-item__imagen" src="./imgs/imagen_encriptador.PNG" alt="imagen_ecommerce">
+                        <img class="proyectos__lista-item-imagen" src="./imgs/imgs_proyectos/imagen_encriptador.png" alt="imagen_encriptador">
                     </li>
                 </ul>
             </div>
         </section>
     </main>
     <footer class="pie-pagina">
-        <h4 class="pie-pagina__titulo">Desarrollado por Daniel Caro 2023</h4>
+        <h4 class="pie-pagina__titulo">Desarrollado por Daniel Caro</h4>
+        <h5 class="pie-pagina__subtitulo">2023</h5>
     </footer>
 </body>
 </html>

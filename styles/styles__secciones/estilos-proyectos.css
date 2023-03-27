@@ -1,0 +1,131 @@
+.proyectos{
+    background-color: var(--color-gris-claro);
+}
+
+.proyectos__lista-item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: .5rem .5rem .5rem var(--color-gris-medio);
+}
+
+.proyectos__lista-item-imagen--mediano{
+    padding: 1.2rem;
+    height: 40vh;
+    width: 50%;
+    align-self: center;
+}
+
+.proyectos__lista-contenido{
+    width: 50%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.proyectos__lista-contenido-titulo{
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.proyectos__lista-contenido-des{
+    text-align: justify;
+}
+
+.proyectos__lista-tecnologias-titulo{
+    font-weight: 600;
+}
+
+.listado-iconos{
+    list-style-image: url('../../imgs/microchip-solid.svg');
+}
+
+.proyectos__contenedor-botones{
+    display: flex;
+}
+
+.proyectos__lista-item-imagen{
+    padding: 1.2rem;
+    height: 50vh;
+    width: 60%;
+    align-self: center;
+}
+
+/* responsive */
+
+@media screen and (min-width:360px) and (max-width:767px) {
+
+    .lista{
+        padding: 0px;
+    }
+
+    .proyectos__lista-item{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .proyectos__lista-contenido{
+        width: 92%;
+    }
+
+    .proyectos__lista-item-imagen{
+        padding: 1rem;
+        height: 22vh;
+        width: 90%;
+    }
+
+    .proyectos__lista-item-imagen--mediano{
+        padding: 1rem;
+        height: 20vh;
+        width: 90%;
+        align-self: center;
+    }
+
+    .proyectos__lista-contenido-titulo{
+        font-size: 1.6rem;
+        margin: 0px;
+        margin-top: .5rem;
+    }
+
+    .proyectos__lista-contenido-des{
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    
+    .lista{
+        padding: 0px;
+    }
+
+    .proyectos__lista-item{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .proyectos__lista-contenido{
+        width: 92%;
+    }
+
+    .proyectos__lista-item-imagen{
+        padding: 1rem;
+        height: 30vh;
+        width: 90%;
+    }
+
+    .proyectos__lista-item-imagen--mediano{
+        padding: 1rem;
+        height: 20vh;
+        width: 90%;
+        align-self: center;
+    }
+
+    .proyectos__lista-contenido-titulo{
+        font-size: 1.6rem;
+        margin: 0px;
+        margin-top: .5rem;
+    }
+}

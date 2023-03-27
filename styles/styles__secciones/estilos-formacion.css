@@ -1,0 +1,109 @@
+.formacion{
+    background-color: var(--color-azul);
+}
+
+.formacion__container-lista{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.tarjeta-formacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32%;
+    height: auto;
+    background-color: white;
+    border-radius: 1.2rem;
+    box-shadow: .5rem .5rem .5rem var(--color-gris);
+}
+
+.tarjeta-formacion__imagen{
+    width: 80%;
+    height: 40vh;
+    padding: 2rem;
+}
+
+.tarjeta-formacion__contenido{
+    width: 80%;
+}
+
+.tarjeta-formacion__contenido-titulo{
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.tarjeta-formacion__contenido-subtitulo{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.tarjeta-formacion__contenido-fecha{
+    text-align: center;
+}
+
+/* responsive */
+
+@media screen and (min-width:360px) and (max-width:767px) {
+
+    .formacion__container-lista{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tarjeta-formacion{
+        display: flex;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .tarjeta-formacion__imagen{
+        width: 60%;
+        height: 25vh;
+        padding: 1rem;
+    }
+
+    .tarjeta-formacion__contenido-titulo{
+        font-size: 1.3rem;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .tarjeta-formacion__contenido-subtitulo{
+        font-size: 1.15rem;
+        text-align: center;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .formacion__container-lista{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tarjeta-formacion{
+        display: flex;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .tarjeta-formacion__imagen{
+        width: 50%;
+        height: 30vh;
+        padding: 1rem;
+    }
+
+    .tarjeta-formacion__contenido-titulo{
+        font-size: 1.3rem;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .tarjeta-formacion__contenido-subtitulo{
+        font-size: 1.15rem;
+        text-align: center;
+        margin-top: 0px;
+    }
+}

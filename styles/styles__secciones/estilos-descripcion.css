@@ -18,11 +18,12 @@
 }
 
 .descripcion__parrafo{
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     text-align: justify;
 }
 
 .descripcion__contacto-enlace {
+    font-size: 1.3rem;
     margin-right: 20px;
     color: var(--color-negro);
 }

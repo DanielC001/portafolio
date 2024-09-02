@@ -1,5 +1,10 @@
+.lista{
+    padding: 0px;
+    margin: 0px;
+}
+
 .proyectos{
-    background-color: var(--color-gris-claro);
+    background-color: var(--color-azul);
 }
 
 .proyectos__lista-item{
